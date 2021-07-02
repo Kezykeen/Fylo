@@ -114,12 +114,13 @@ li a:hover {
 
 .features {
   margin-bottom: 30px;
+  margin-top: -20px;
 }
 .features-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 10px;
+  padding-top: 20px;
   width: 65%;
   margin: auto;
   z-index: 7;
@@ -357,7 +358,7 @@ footer {
     width: 85%;
   }
   .intro-content {
-    width: 85%;
+    width: 90%;
   }
   .intro-content-h1 {
     margin-top: 25px;
@@ -500,6 +501,7 @@ footer {
   .footer-content .location {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
     width: 100%;
   }
   .footer-content .location p,
@@ -508,22 +510,28 @@ footer {
     margin-top: 0;
   }
   .footer-content img {
-    margin-right: 28px;
+    margin-right: 25px;
+    margin-top: 1px;
+  }
+  .footer-content .location img {
+    margin-top: 5px;
+    margin-right: 34px;
   }
   .footer-content .contact {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     width: 100%;
   }
   .footer-content .contact div {
     display: flex;
+    margin-bottom: 5px;
   }
   .footer-content .about {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     width: 100%;
   }
   .footer-content .social {
