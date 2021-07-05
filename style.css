@@ -166,7 +166,7 @@ li a:hover {
   display: inline-block;
   text-decoration: none;
   margin-top: 10px;
-  height: 60px;
+  height: 30px;
   color: hsl(176, 68%, 64%);
 }
 .how-we-work-content-link a:hover {
@@ -324,6 +324,14 @@ footer {
 .footer-content svg {
   width: 27px;
   height: 27px;
+}
+footer .profile-summary {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 30px;
+}
+footer .profile-summary a {
+  color: hsl(176, 68%, 64%);
 }
 
 @media only screen and (max-width: 375px) {
