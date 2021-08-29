@@ -101,6 +101,7 @@ li a:hover {
 
 .curvy-icon-container-desktop {
   position: absolute;
+  width: 100%;
   top: 680px;
   z-index: 4;
 }
@@ -380,6 +381,7 @@ footer .profile-summary a {
 
   .curvy-icon-container-mobile {
     display: block;
+    width: 100%;
     position: absolute;
     top: 250px;
     z-index: 4;
