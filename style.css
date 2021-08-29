@@ -334,7 +334,7 @@ footer .profile-summary a {
   color: hsl(176, 68%, 64%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   body {
     font-size: 0.8rem;
   }
